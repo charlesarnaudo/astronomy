@@ -1,2 +1,2 @@
 # astronomy
-Code from my Astronomy Labs
+Code for various labs from my Astronomy course
