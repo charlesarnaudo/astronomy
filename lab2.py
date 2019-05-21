@@ -9,6 +9,9 @@ class planet:
 def calculate_eccentricity(planet):
     return math.sqrt(1 - ((planet.b / planet.a) ** 2))
 
+def calculate_oribital_period(planet):
+    return math.sqrt( (4*math.pi**2/10^18)*planet.a ** 3 )
+
 a = planet(8.25, 8.1)
 b = planet(8.4, 8)
 c = planet(8.5, 7.95)
@@ -18,3 +21,5 @@ print(calculate_eccentricity(a))
 print(calculate_eccentricity(b))
 print(calculate_eccentricity(c))
 print(calculate_eccentricity(d))
+
+print(calculate_oribital_period(a))
